@@ -12,8 +12,8 @@ fun main () {
 val start = (9*60) + 39
     val  a: Duration = start.minutes
     val  drive: Duration = TOTAL_TIME.minutes
-
-       println(a + drive)
+print("Поезд прибудет в ")
+       print( a + drive)
 
 
 
