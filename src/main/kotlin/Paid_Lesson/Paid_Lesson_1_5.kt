@@ -2,19 +2,18 @@ package org.example.Paid_Lesson
 
 fun main() {
 
-    val hour = 6480/3600
-    val minute = (6480/TIME)%60
-    val second = 6480%6480
+    val hour = SECOND/3600
+    val minute = (6480/TIME)%TIME
+    val second = SECOND%SECOND
+
+ println("%02d:%02d")
+
+    println("%02d:%02d:%02d".format(hour, minute, second))
 
 
-        val hh =(String.format("%02d  %d", hour, minute ))
-    val mm =(String.format("%d", minute ))
-    val ss =(String.format("%02d", second))
-
-
-    println("$hh:$mm:$ss")
 
 
 
 }
  const val TIME = 60
+const val SECOND = 6480
