@@ -1,25 +1,16 @@
 package org.example.Paid_Lesson
 
-import java.time.LocalTime
-import java.time.Period
 import kotlin.time.Duration
-import kotlin.time.Duration.Companion.hours
 import kotlin.time.Duration.Companion.minutes
-import kotlin.time.Duration.Companion.seconds
 
 fun main () {
-
-val start = (9*60) + 39
+    val startHour = 9
+    val startMin = 39
+val start = (startHour*MIN) + startMin
     val  a: Duration = start.minutes
     val  drive: Duration = TOTAL_TIME.minutes
 print("Поезд прибудет в ")
        print( a + drive)
-
-
-
-
-
-
-
 }
 const val TOTAL_TIME = 457
+const val MIN = 60
