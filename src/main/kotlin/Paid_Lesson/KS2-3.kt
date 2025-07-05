@@ -10,7 +10,7 @@ fun main () {
     val startOfMotion: Duration=start.minutes
     val drive: Duration=TOTAL_TIME.minutes
     print("Поезд прибудет в ")
-    print( startOfMotion + drive)
+    print( startOfMotion+drive)
 }
     const val TOTAL_TIME=457
     const val MIN=60
