@@ -7,8 +7,8 @@ fun main () {
     val startHour=9
     val startMin=39
     val start = (startHour*MIN)+startMin
-    val  startOfMotion: Duration=start.minutes
-    val  drive: Duration=TOTAL_TIME.minutes
+    val startOfMotion: Duration=start.minutes
+    val drive: Duration=TOTAL_TIME.minutes
     print("Поезд прибудет в ")
     print( startOfMotion + drive)
 }
